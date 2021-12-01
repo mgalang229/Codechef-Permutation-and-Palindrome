@@ -30,7 +30,7 @@ int main() {
 				odd_character = i;
 			}
 		}
-		// if the no. of letters with odd frequency are greater than
+		// if the no. of letters with odd frequency is greater than
 		// or equal to 2, then it is impossible to create a palindrome
 		if (odd_count >= 2) {
 			cout << -1 << '\n';
