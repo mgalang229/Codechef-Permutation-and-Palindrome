@@ -31,7 +31,7 @@ int main() {
 		for (int i = 0; i < (int) counter.size(); i++) {
 			cnt += (counter[i] & 1);
 		}
-		// if the no. of letters that has an odd frequency are greater than 1,
+		// if the no. of letters that has an odd frequency is greater than 1,
 		// then it is impossible to create a palindromic string
 		if (cnt > 1) {
 			cout << -1 << '\n';
